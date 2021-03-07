@@ -1,0 +1,11 @@
+name: Gotessa
+author: fluxy, Muhammad Yusuf Abdool Satar <fx@fluxy.net>
+description: Run go test with coverage and output a valid json
+
+outputs:
+  gotessa_json:
+    description: Gotessa json output
+
+runs:
+  using: docker
+  image: Dockerfile
